@@ -33,7 +33,7 @@ body {
   overflow: hidden;
   border-radius: 10px;
   width: 40%;
-  height: 56%;
+  height: 57%;
   display: grid;
   background-color: hsl(0, 0%, 100%);
   grid-template-columns: 1fr 1fr;
