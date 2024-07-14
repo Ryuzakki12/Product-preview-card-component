@@ -1,0 +1,127 @@
+/* 
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+.perfume-section {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.perfume {
+  width: 144rem;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.perfume-card {
+  overflow: hidden;
+  border-radius: 10px;
+  width: 40%;
+  height: 56%;
+  display: grid;
+  background-color: hsl(0, 0%, 100%);
+  grid-template-columns: 1fr 1fr;
+}
+
+.perfume-header {
+  color: hsl(212, 21%, 14%);
+  font-size: 3.2rem;
+  line-height: 0.9;
+  margin-bottom: 1.8rem;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+}
+
+.perfume-title {
+  color: hsl(228, 12%, 48%);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.perfume-text {
+  color: hsl(228, 12%, 48%);
+  line-height: 1.5;
+  font-size: 1.4rem;
+  margin-bottom: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.new-price {
+  color: #3c8067;
+  font-size: 3rem;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+}
+
+.old-price {
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.text-only {
+  padding: 3rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+/* .btn-container {
+  display: flex;
+  justify-content: center;
+} */
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(158, 36%, 37%);
+  padding: 1.4rem 8rem;
+  border: none;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #183329;
+}
+
+.cart-img {
+  width: 20%;
+  margin-right: 6px;
+}
+
+.btn-container {
+  white-space: nowrap;
+  margin-bottom: 2rem;
+}
